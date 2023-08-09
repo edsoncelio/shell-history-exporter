@@ -11,6 +11,7 @@ Small tool to export the zsh_history to a private Gist.
 go build . 
 
 # execute
+export GH_TOKEN=xxxxxxxxxx
 ./go-history-exporter
 ``````
 
